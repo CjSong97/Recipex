@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePlan, PLAN_MAX } from "@/app/providers";
-import { lookupMeal, getIngredients, toPlanMeal } from "@/lib/mealdb";
+import { lookupMeal, getIngredients, toPlanMeal } from "@/lib/recipeSources";
 
 export default function RecipeModal({ mealId, onClose }) {
   const [meal, setMeal] = useState(null);

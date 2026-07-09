@@ -13,7 +13,7 @@ import {
   randomMeals,
   listAreas,
   PROTEIN_CATEGORIES,
-} from "@/lib/mealdb";
+} from "@/lib/recipeSources";
 
 function DiscoverPage() {
   const router = useRouter();

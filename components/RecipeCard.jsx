@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { usePlan, PLAN_MAX } from "@/app/providers";
-import { lookupMeal, toPlanMeal } from "@/lib/mealdb";
+import { lookupMeal, toPlanMeal } from "@/lib/recipeSources";
 
 /**
  * meal may be a full meal object (from search/random) or a partial one
